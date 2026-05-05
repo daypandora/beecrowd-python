@@ -6,7 +6,7 @@ for i in range(n):
     x, y = map(int, input().split())
   
     if x > y:
-      x, y = y, x
+      x, y = y, x #troca os valores de x e y, para que x seja sempre o maior
 
     for j in range(x+1, y):
         if j % 2 != 0:
